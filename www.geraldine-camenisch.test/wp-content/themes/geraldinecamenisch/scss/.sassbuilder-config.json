@@ -1,0 +1,11 @@
+{
+    "project_path": "/geraldincamenisch/scss",
+	"output_path": "/geraldincamenisch/css",
+	"options": {
+		"cache":         true,
+		"debug":         true,
+		"line-comments": true,
+		"line-numbers":  true,
+		"style":         "nested"
+	}
+}
