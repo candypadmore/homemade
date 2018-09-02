@@ -23,10 +23,12 @@
 define('DB_NAME', 'sqlgeraldine');
 
 /** MySQL database username */
-define('DB_USER', 'sqlgeraldine');
+// define('DB_USER', 'sqlgeraldine');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'pa6gQS9!.4');
+// define('DB_PASSWORD', 'pa6gQS9!.4');
+define('DB_PASSWORD', 'mysql');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
