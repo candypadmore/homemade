@@ -35,7 +35,8 @@ p {
 .navbar {
     background: #ffaed5;
     margin-bottom: 2rem;
-    color: #342d22;
+    /*color: #342d22;*/
+    color: grey;
     max-width: 100%;
 }
 
@@ -92,4 +93,5 @@ body {
     background: grey;
     min-height: 30%;
     max-width: 90%;
+    color: white;
 }
