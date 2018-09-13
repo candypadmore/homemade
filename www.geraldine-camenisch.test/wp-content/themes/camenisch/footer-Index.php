@@ -1,5 +1,7 @@
-         
-        <!-- end footer -->                                    
+
+        <!-- end footer -->
         <?php wp_footer(); ?>
-    </body>     
+        <!-- footer -->
+
+    </body>
 </html>
