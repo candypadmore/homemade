@@ -1,0 +1,366 @@
+body {
+    color: #666;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+
+.title_uterseite{
+	padding-left: 0;
+}
+
+.right{
+	float: right;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.verwaltung{
+	margin-top: 28px;
+	padding-left: 15px;
+}
+
+.title{
+	padding-left: 0;
+	margin-top: 40px;
+}
+
+h3{
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+a{
+	color: #666;
+}
+
+a:hover{
+	color: #c00;
+	text-decoration: none;
+}
+
+a:focus {
+    outline: medium none;
+}
+
+.shadow a{
+	color: #c00;
+}
+
+.shadow a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.logo{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.logo > a {
+    float: left;
+}
+
+.tel, .mail, .search{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.tel > .glyphicon, .mail > .glyphicon, .search > .glyphicon{
+	color: #696969;
+}
+
+.search{
+	float: right;
+	padding-right:0px;
+}
+
+.startnav{
+	padding-top: 130px;
+	padding-bottom: 70px;
+}
+
+.ribon{
+	margin-top: 65px;
+}
+
+.shadow{
+	 background-image: url("../images/shadow.jpg");
+	 background-repeat: no-repeat;
+	 min-height: 619px;
+	 padding-left: 30px;
+	 margin-bottom: 30px;
+}
+
+.shadow_adress{
+	 background-image: url("../images/shadow.jpg");
+	 background-repeat: no-repeat;
+	 min-height: 619px;
+	 padding-left: 30px;
+	 margin-top: 55px;
+}
+
+.tageskarte {
+    background-image: url("../images/tageskarte.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 20px;
+    height: 119px;
+    margin-left: 10px;
+    margin-top: -89px;
+    padding: 49px 30px 30px 130px;
+    text-transform: uppercase;
+}
+
+a.tageskarte-link {
+    position: relative;
+    z-index: 20;
+}
+
+.media {
+    padding-left: 15px;
+}
+
+.startseite ul{
+	padding-left: 0;
+
+}
+
+.startseite ul li{
+	border-bottom: 1px solid #ccc;
+	list-style-image: url("../images/azeichens.png");
+    margin-bottom: 0;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-left: 15px;
+}
+
+.white{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+/* ----------------- NAVIGATION ----------------- */
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    background-color: #e8e8e8;
+    border:none;
+}
+
+.navigation {
+    background-color: #e8e8e8;
+    border:none;
+    border-bottom: 5px solid #e60604;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #666;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-toggle{
+	border: 1px solid #000;
+}
+
+.navbar-toggle > span.icon-bar {
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li.current-page-ancestor > a{
+  color: #fff;
+  background-color: #e60604;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #e60604;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li.current-menu-item > a{
+	background-color: #e60604;
+    color: #fff;
+}
+
+nav.head-navbar > div.nav > ul > li.page_item {
+    float: left;
+}
+
+ul#head-menu > li.menu-item > a {
+	background-color: #e60604;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+ul#head-menu > li.menu-item > a:hover {
+	background-color: #e60604;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav.head-navbar > div#navbar > > div.nav > ul li.page_item > ul.children{
+	display: none;
+}
+
+nav.head-navbar > div#navbar > .nav.navbar-nav {
+    float: right;
+}
+
+nav.head-navbar > div#head-navbar > .nav.navbar-nav {
+    float: right;
+}
+
+ul#head-menu > li#menu-item-34 > a {
+    background-color: #a6020f;
+}
+
+
+/* ----------------- NAVIGATION END ----------------- */
+
+
+/* ----------------- CAROUSEL START ----------------- */
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    width: 100%;
+}
+
+.home-slide {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.header {
+    background-color: #e9f0f4;
+    background-image: url("../imgages/header.jpg");
+    border-bottom: 5px solid #71c219;
+    height: 395px;
+    padding-top: 20px;
+    z-index: -1;
+}
+.header {
+    border-bottom: 5px solid #71c219;
+    z-index: -1;
+}
+
+.carousel-fade > .carousel-inner > .active {
+    opacity: 1;
+}
+
+.carousel-fade > .carousel-inner > .item {
+    left: 0;
+    opacity: 0;
+    transition-property: opacity;
+    width: auto;
+}
+
+.carousel-inner > .header {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.carousel .item {
+    left: 0 !important;
+    transition: opacity 1s ease 0s;
+}
+
+.home {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.titelheader.home {
+}
+
+.titelheader.home {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.header.home-slide {
+    background-position: center center;
+    background-size: 100% auto;
+    height: 380px;
+    padding-top: 15px;
+}
+
+.teasertext {
+    margin-bottom: 10px;
+}
+
+.teasertext.home {
+    color: #71c219;
+}
+
+.teasertext.home {
+    color: #3f88d5;
+    font-size: 26px;
+    padding: 10px;
+}
+
+
+
+/* ----------------- CAROUSEL END ----------------- */
+
+.container > div#deepag {
+    float: right;
+    position: relative;
+}
+
+footer > div.container{
+	border-top: 1px solid #ccc;
+	padding-bottom:30px;
+	padding-top: 10px;
+}
+
+.bild_content img{
+	width: 100%;
+}
+
+@media(max-width: 1024px){
+	.tageskarte {
+	    margin-top: 0px;
+	}
+}
+
+@media(max-width: 767px){
+    .header.home-slide {
+        background-position: center center;
+        background-size: 100% auto;
+        height: 200px;
+        padding-top: 15px;
+    }
+}

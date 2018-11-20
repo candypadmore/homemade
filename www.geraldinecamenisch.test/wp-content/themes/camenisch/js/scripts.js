@@ -1,0 +1,12 @@
+//@prepros-append min/jquery-ui.min.js
+//@prepros-append min/chosen.jquery.min.js
+//@prepros-append bootstrap.min.js
+//@prepros-append footable/footable.js
+//@prepros-append shadowbox/shadowbox.js
+//@prepros-append jquery.smint.js
+//@prepros-append masonry.pkgd.min.js
+//@prepros-append imagesloaded.pkgd.min.js
+//@prepros-append maps.js
+//@prepros-append sortable.js
+//@prepros-append archives.js
+//@prepros-append custom.js

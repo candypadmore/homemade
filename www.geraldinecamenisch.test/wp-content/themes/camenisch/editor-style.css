@@ -1,0 +1,56 @@
+body{
+    font-family: "Titillium Web",sans-serif;
+}
+
+blockquote, blockquote p {
+    border-left: 0 none;
+    margin: -15px 0 0;
+    padding: 0;
+}
+
+.sitetitle {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 15px 15px 0px;
+    text-transform: uppercase;
+}
+
+blockquote p::before {
+    content: "“";
+    font-family: Georgia,serif;
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+blockquote p::after {
+    content: "„";
+    font-family: Georgia,serif;
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+.first p, .first_large p, .second p, .there p, .four p, .first_news p, .fullwidth p, .leftcolumn p, .rightcolumn p, .leftcolumnwide p, .rightcolumnsmall p {
+    margin-bottom: 0;
+    padding: 15px 15px 0;
+}
+
+blockquote footer, blockquote cite {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+blockquote .small, blockquote footer, blockquote small, blockquote cite {
+    color: #777;
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857;
+}
+
+.sitetitle {
+    padding-bottom: 0;
+}
+.sitetitle {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 15px 15px 10px;
+    text-transform: uppercase;
+}

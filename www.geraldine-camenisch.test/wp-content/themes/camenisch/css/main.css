@@ -14,15 +14,16 @@ h4,
 h5,
 h6 {
     font-size: 2.5rem;
-    font-family: "Helvetica", arial, sans-serif;
-    color: #a60051;
+    font-family: "Helvetica", arial, sansa-serif;
+    /*color: #f6adb3;*/
+    color:green;
 }
 
 p {
     font-size: 1rem;
     line-height: 1.4;
     font-family: "Helvetica", arial, sans-serif;
-    color: #342d22;
+    color: #3f4c4f;
     margin: 0 auto;
 }
 
