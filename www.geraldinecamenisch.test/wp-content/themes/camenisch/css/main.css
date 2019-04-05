@@ -36,7 +36,7 @@ p {
 
 /* content */
 body {
-    background: url(../img/background.jpg) no-repeat center center fixed;
+    background: url(../img/background.jpg) repeat left center fixed;
     }
 
 .content-img img {
@@ -85,7 +85,7 @@ td {
 
 /* navigation */
 .navbar {
-    background: #ffaed5;
+    background: #f6adb3;
     margin-bottom: 2rem;
     color: #342d22;
     max-width: 100%;

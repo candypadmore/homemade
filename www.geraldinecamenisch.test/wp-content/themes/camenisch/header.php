@@ -58,7 +58,7 @@ if($background) {
 </head>
 
 <body>
-	<div class="container-fluid content">
+	<div class="container content">
 		<div class="body-row">
 			<div class="row white-logo">
 				<a class="rounded-0 img-fluid float-none p-auto m-auto" href="<?php echo site_url(); ?>">
